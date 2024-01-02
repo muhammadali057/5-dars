@@ -53,11 +53,14 @@
 }
 @media only screen and (max-width: 1320px) {
   .contanir .content .main_img {
-    width: 1000px;
-    height: 806.39px;
+    width: 540px;
+    height: 427px;
   }
   .contanir .content .section_img_cart {
     width: 540px;
     height: 427px;
+  }
+  .contanir .content .nav_text {
+    gap: 100px;
   }
 }/*# sourceMappingURL=main.css.map */
