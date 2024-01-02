@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.contanir {
+    // max-width: 1440px;
+    // max-height: 4005px;
+    // background-color: aqua;
+
+    .content {
+        max-width: 1320px;
+
+        .nav_text {
+            display: flex;
+            gap: 1100px;
+            padding: 20px 0px;
+
+            &:hover {
+                color: red;
+                cursor: pointer;
+            }
+
+            .nav_text_li {
+                list-style-type: none;
+                font-size: 17px;
+
+                &:hover {
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .main_img {
+            width: 1320px;
+            height: 806.39px;
+        }
+
+        .section {
+
+            // display: flex;
+            .section_text {
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+
+            .section_img_cart {
+                width: 640px;
+                height: 427px;
+
+            }
+
+
+            // .box1{
+            //     display: flex;
+            // }
+            // .box2{
+            //     display: flex;
+            // }
+            // .box3{
+            //     display: flex;
+            // }
+            // .box4{
+            //     display: flex;
+            // }
+            // .box5{
+            //     display: flex;
+            // }
+            .section_img_grop {
+                margin-left: 35px;
+
+            }
+        }
+
+        .footer_box {
+            display: flex;
+            margin-top: 100px;
+
+            .footer_text {
+                display: flex;
+                gap: 100px;
+
+
+            }
+
+            .footer_text_ul {
+                list-style-type: none;
+                margin-top: 20px;
+            }
+        }
+
+        @media only screen and (max-width:1320px) {
+            .main_img {
+                width: 1000px;
+                height: 806.39px;
+            }
+
+            .section_img_cart {
+                width: 540px;
+                height: 427px;
+
+            }
+        }
+    }
+
+}
